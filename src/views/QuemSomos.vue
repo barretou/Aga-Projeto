@@ -9,7 +9,6 @@
         </v-banner>
       </div>
     </div>
-
   </div>
 </template>
 

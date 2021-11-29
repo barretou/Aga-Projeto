@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-btn class="ma-2 azul-title" outlined>
+        <v-btn class="ma-2 azul-title" outlined large>
         Área do Cliente
         </v-btn>
     </div>
