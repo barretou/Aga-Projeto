@@ -5,15 +5,19 @@
                 <h6 class="azul-title">AGA CAPITAL</h6>
                 <h1 class="text-white fw-bold mt-2">Serviços de Antecipação de Recebíveis</h1>
                 <h6 class="text-white mt-2">Para alavancar sua empresas e dar sustentabilidade no seu capital de giro</h6>
-                <v-btn class="mt-5 banner-button" elevation="2" x-large>Fazer Pré-Cadastro</v-btn>
+                <ButtonStyle textButton='Fazer Pré-Cadastro'/>
             </div>
         </v-banner>
     </section>
 </template>
 
 <script>
+import ButtonStyle from '../components/ButtonStyle.vue'
     export default {
         name: 'Banner',
+        components: {
+            ButtonStyle
+        }
     }
 </script>
 
@@ -32,12 +36,5 @@
 
     .banner-text{
         height: 80vh;
-    }
-
-    .banner-button{
-        background-color: rgb(20,84,145) !important;
-        background-color: radial-gradient(circle, rgba(20,84,145,1) 0%, rgba(28,122,180,1) 25%, rgba(35,159,213,1) 100%) !important;
-        color: #fff !important;
-        border-radius: 10px;
     }
 </style>
