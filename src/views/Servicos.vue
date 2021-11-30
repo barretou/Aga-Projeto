@@ -1,25 +1,27 @@
 <template>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12 col-12">
-        <v-banner class="banner-servicos w-100">
-          <div class="banner-text-servicos">
-            <h1 class="fw-bold text-white text-center w-50">
-              Otimize seu fluxo de caixa antecipando seus recebíveis para pagar
-              seus fornecedores à vista, gerando diferencial competitivo e
-              aumento da liquidez.
-            </h1>
-          </div>
-        </v-banner>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row mt-5 d-flex align-items-center">
-        <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-start">
+  <section>
+    <v-container>
+      <v-row>
+        <v-col cols="12" lg="12">
+          <v-banner class="banner-servicos w-100">
+            <div class="banner-text-servicos">
+              <h1 class="fw-bold text-white text-center w-50">
+                Otimize seu fluxo de caixa antecipando seus recebíveis para
+                pagar seus fornecedores à vista, gerando diferencial competitivo
+                e aumento da liquidez.
+              </h1>
+            </div>
+          </v-banner>
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-container class="d-flex align-center pa-6 cards-section">
+      <v-row>
+        <v-col cols="12" lg="6">
           <v-card elevation="5" class="w-75">
             <v-card-subtitle class="fw-bold azul-title d-flex flex-start"
-              >Nossos Serviços</v-card-subtitle
-            >
+              >Nossos Serviços
+            </v-card-subtitle>
             <v-card-title class="fw-bold fs-4 dark-azul-title">
               Antecipação de Recebíveis
             </v-card-title>
@@ -29,19 +31,17 @@
               aumento da liquidez.
             </v-card-text>
           </v-card>
-        </div>
-        <div class="col-lg-6 col-12 h-100 d-flex justify-content-center align-items-center">
-
-            <v-card-text class="mt-3 text-center fw-bold azul-title h-100">
-              Otimize seu fluxo de caixa antecipando seus recebíveis para pagar
-              seus fornecedores à vista, gerando diferencial competitivo e
-              aumento da liquidez.
-            </v-card-text>
-
-        </div>
-      </div>
-    </div>
-  </div>
+        </v-col>
+        <v-col cols="12" lg="6">
+          <v-card-text class="mt-3 text-center fw-bold azul-title">
+            Otimize seu fluxo de caixa antecipando seus recebíveis para pagar
+            seus fornecedores à vista, gerando diferencial competitivo e aumento
+            da liquidez.
+          </v-card-text>
+        </v-col>
+      </v-row>
+    </v-container>
+  </section>
 </template>
 
 <script>
@@ -57,6 +57,9 @@ export default {};
   height: 40vh;
 }
 
+.cards-section{
+  height: 50vh;
+}
 .banner-text-servicos {
   height: 40vh;
   display: flex;
@@ -78,12 +81,11 @@ export default {};
 }
 
 @media screen and (max-width: 600px) {
-
-.banner-servicos {
-  height: 80vh;
-}
-.banner-text-servicos {
-  height: 80vh;
+  .banner-servicos {
+    height: 80vh;
+  }
+  .banner-text-servicos {
+    height: 80vh;
   }
 }
 </style>
