@@ -11,7 +11,9 @@
     <v-text-field label="Nome" placeholder="Digite seu nome"></v-text-field>
     <v-text-field label="Número" placeholder="Digite seu número"></v-text-field>
     <v-text-field label="Email" placeholder="Digite seu email"></v-text-field>
-    <ButtonClient TextButton="Confirmar Pré-Cadastro" />
+    <div class="d-flex justify-content-center">
+        <ButtonClient TextButton="Confirmar Pré-Cadastro" />
+    </div>
   </div>
 </template>
 
