@@ -15,7 +15,7 @@
           <v-list-item-title class="py-2"><router-link class="text-dark fw-bold" to="/quem-somos">QUEM SOMOS</router-link></v-list-item-title>
           <v-list-item-title class="py-2"><router-link class="text-dark fw-bold" to="/servicos">SERVIÇOS</router-link></v-list-item-title>
           <v-list-item-title class="py-2"><router-link class="text-dark fw-bold" to="/contato">CONTATO</router-link></v-list-item-title>
-          <v-list-item-title class="py-2"><router-link class="text-dark fw-bold" to="cliente/"><ButtonClient TextButton="Clientes"/></router-link></v-list-item-title>
+          <v-list-item-title class="py-2"><router-link class="text-dark fw-bold" to="/"><ButtonClient TextButton="Clientes"/></router-link></v-list-item-title>
         </v-list-item>
       </v-list>
     </v-menu>

@@ -11,7 +11,7 @@
             <router-link to="/quem-somos">Quem Somos</router-link>
             <router-link to="/servicos">Serviços</router-link>
             <router-link to="/contato">Contato</router-link>
-            <router-link to="/cliente"><ButtonClient TextButton="Clientes"/></router-link>
+            <router-link to="/"><ButtonClient TextButton="Clientes"/></router-link>
           </div>
         </div>
       </v-col>
