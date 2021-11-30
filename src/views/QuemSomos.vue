@@ -2,7 +2,7 @@
   <div class="banner-quem-somos">
     <div class="row h-100">
       <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center h-100">
-        <v-banner class="px-5">
+        <v-banner class="px-0 px-lg-5">
           <div class="card-wrapper">
             <Card/>
           </div>
