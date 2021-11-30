@@ -1,9 +1,9 @@
 <template>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12 col-12">
-        <v-banner class="banner-quem-somos w-100">
-          <div class="banner-text d-flex justify-content-center">
+  <div class="banner-quem-somos">
+    <div class="row h-100">
+      <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center h-100">
+        <v-banner class="px-5">
+          <div class="card-wrapper">
             <Card/>
           </div>
         </v-banner>
@@ -34,8 +34,13 @@ export default {
 
 <style lang="css">
 
+  .card-wrapper{
+    display: flex;
+    justify-content: center;
+  }
+
   .banner-quem-somos{
-    height: 100vh;  
+    height: 90vh;
     background-image: url('../assets/bg-quem-somos.png');
     background-size: cover;
     object-fit: cover;

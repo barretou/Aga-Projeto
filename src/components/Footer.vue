@@ -1,25 +1,24 @@
 <template>
-    <div class="container-fluid">
-        <div class="container my-5">
-            <div class="row">
-                <div class="col-lg-3 col-12 d-flex justify-content-center justify-content-lg-start mb-4 mb-lg-0">
-                    <img class="w-50" src="../assets/logo-aga.svg" alt="">
-                </div>
-                <div class="col-lg-3 col-12 text-center text-lg-start">
-                    <h4 class="dark-azul-title">Endereço</h4>
-                    <p><i class="fas fa-map-marker-alt azul-title"></i> Rua dos Mundurucus, 3100. Ed. Metropolitan, Sala 1102. <br> CEP 66040-033 Belém-PA</p>
-                </div>
-                <div class="col-lg-3 col-12 text-center text-lg-start">
-                    <h4 class="dark-azul-title">Contato</h4>
-                    <p><i class="fas fa-envelope azul-title"></i> agafactoring@agafactoring.com.br</p>
-                    <p><i class="fas fa-phone azul-title"></i> (91) 3201-9999</p>
-                </div>
-                <div class="col-lg-3 col-12 d-flex justify-content-center justify-content-lg-start align-items-center mb-4 mb-lg-0">
-                    <ButtonClient/>
-                </div>
-            </div>
-        </div>
-    </div>
+    <v-container class="footer">
+        <v-row>
+            <v-col class="d-flex align-items-center justify-content-center" cols="12" md="6" lg="3">
+                <img class="footer-img" src="../assets/logo-aga.svg" alt="">
+            </v-col>
+            <v-col class="d-flex flex-column align-items-center text-center text-lg-start" cols="12" md="6" lg="3">
+                <h4 class="dark-azul-title">Endereço</h4>
+                <p><i class="fas fa-map-marker-alt azul-title"></i> Rua dos Mundurucus, 3100. Ed. Metropolitan, Sala 1102.</p>
+                <p>CEP 66040-033 Belém-PA</p>
+            </v-col>
+            <v-col class="d-flex flex-column align-items-center text-center text-lg-start" cols="12" md="6" lg="3">
+                <h4 class="dark-azul-title">Contato</h4>
+                <p><i class="fas fa-envelope azul-title"></i> agafactoring@agafactoring.com.br</p>
+                <p><i class="fas fa-phone azul-title"></i> (91) 3201-9999</p>
+            </v-col>
+            <v-col class="d-flex justify-content-center align-items-center" cols="12" md="6" lg="3">
+                 <ButtonClient TextButton="Clientes" style="font-size:1.5rem"/>
+            </v-col>                
+        </v-row>
+    </v-container>
 </template>
 
 <script>
@@ -42,4 +41,22 @@ import ButtonClient from './ButtonClient.vue'
 .azul-title {
   color: #00aeef !important;
 }
+
+.footer {
+    height: auto;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-img{
+    width: 10rem;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-img{
+        width: 8rem;
+    }
+}
+
 </style>

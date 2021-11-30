@@ -2,7 +2,7 @@
   <section class="bg-contato">
     <v-container>
       <v-row style="display:flex; flex-column; justify-content:center; align-items:center; height:80vh">
-        <v-col class="bg-white p-5" cols="12" sm="6" md="3"> 
+        <v-col class="bg-white p-5" cols="12jhm,gh" sm="6" md="3"> 
           <Formulario/>
         </v-col>
         <div>
