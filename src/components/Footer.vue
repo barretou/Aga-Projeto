@@ -62,9 +62,9 @@
       <v-row>
         <v-col cols="12" lg="12">
           <hr class="w-100" />
-          <div class="d-flex justify-content-between align-items-center">
-            <p class="mx-5">AGA Factoring | Todos os direitos reservados.2012 - 2021</p>
-            <p class="mx-5">Desenvolvido por Bredi</p>
+          <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
+            <p class="mx-5 text-center">AGA Factoring | Todos os direitos reservados.2012 - 2021</p>
+            <p class="mx-5 text-center">Desenvolvido por Bredi</p>
           </div>
         </v-col>
       </v-row>
