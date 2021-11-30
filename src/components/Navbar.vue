@@ -57,12 +57,12 @@ export default {
 
 .nav-links a:not(:last-of-type)::before  {
   content: "";
-  width: 100%;
+  width: calc(100% - 30px);
   position: absolute;
   height: 2px;
   background: #239dd3;
   transition: 0.2s ease-in-out;
-  transform: translateX(-100%);
+  transform: translateX(15px) scaleX(0);
   bottom: 0;
   left: 0;
 }
@@ -73,7 +73,7 @@ export default {
 
 .nav-links a:hover::before{
   color: #239dd3;
-  transform: translateX(0);
+  transform: translateX(15px) scaleX(1);
 }
 
 #nav a.router-link-exact-active {

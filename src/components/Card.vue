@@ -53,7 +53,8 @@ export default {
 }
 
 .card{
-  width: 50% !important;
+  width: 70% !important;
+  height: auto !important;
 }
 
 @media screen and (max-width: 600px) {

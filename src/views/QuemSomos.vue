@@ -1,7 +1,7 @@
 <template>
   <div class="banner-quem-somos">
     <div class="row h-100">
-      <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center h-100">
+      <div class="col-lg-12 col-12 d-flex justify-content-center h-100">
         <v-banner class="px-0 px-lg-5">
           <div class="card-wrapper">
             <Card/>
@@ -40,7 +40,7 @@ export default {
   }
 
   .banner-quem-somos{
-    height: 90vh;
+    padding: 10rem;
     background-image: url('../assets/bg-quem-somos.png');
     background-size: cover;
     object-fit: cover;
@@ -60,8 +60,7 @@ export default {
 
   @media screen and (max-width: 768px) {
     .banner-quem-somos{
-
-      height: auto;
+     padding: 0;
     }
   }
     
