@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <v-container class="footer">
       <v-row>
         <v-col
@@ -69,7 +69,7 @@
         </v-col>
       </v-row>
     </v-container>
-  </div>
+  </section>
 </template>
 
 <script>
